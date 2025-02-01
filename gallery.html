@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore Orchid Ghar's stunning orchid collection through our gallery of exotic orchids, rare flowers, and floral arrangements.">
+    <meta name="keywords" content="orchid gallery, exotic orchids, floral arrangements, orchid photos">
+    <meta name="author" content="Pranay Rai">
+    <title>Gallery - Orchid Ghar</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.0.0/dist/tailwind.min.css" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Header -->
+    {% include header.html %}
+
+    <!-- Gallery Section -->
+    <section class="gallery bg-gray-100 py-20">
+      <div class="container mx-auto text-center">
+        <h2 class="text-3xl mb-6">Our Orchid Gallery</h2>
+        <div class="grid grid-cols-3 gap-6">
+          <div><img src="assets/images/orchid1.jpg" alt="Exotic Orchid" class="rounded-lg shadow-lg w-full h-full object-cover"></div>
+          <div><img src="assets/images/orchid2.jpg" alt="Lallupatey Orchid" class="rounded-lg shadow-lg w-full h-full object-cover"></div>
+          <div><img src="assets/images/orchid3.jpg" alt="Gadavari Orchid" class="rounded-lg shadow-lg w-full h-full object-cover"></div>
+          <!-- Add more images as needed -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    {% include footer.html %}
+  </body>
+</html>
